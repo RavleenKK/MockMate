@@ -1,0 +1,8 @@
+flask
+flask-cors
+openai-whisper
+librosa
+deepface
+numpy
+scipy
+opencv-python
