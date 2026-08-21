@@ -18,7 +18,7 @@ MockMate is a full-stack interview preparation platform that enables users to co
 
 After an interview session, the recorded audio and video are processed by a Python ML service.
 
-Whisper performs speech transcription, Librosa extracts audio features, and OpenCV analyzes facial engagement. These metrics are combined to generate performance scores and recommendations.
+Whisper performs speech transcription and OpenCV analyzes facial engagement. These metrics are combined to generate performance scores and recommendations.
 
 ## Tech Stack
 
