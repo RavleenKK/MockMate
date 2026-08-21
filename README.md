@@ -33,14 +33,11 @@ Whisper performs speech transcription, Librosa extracts audio features, and Open
 - Node.js
 - Express
 - MongoDB
-- Clerk
-- Inngest
 
 ### ML
 - Python
 - Flask
 - Whisper
-- Librosa
 - OpenCV
 - PyTorch
 
