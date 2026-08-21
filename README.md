@@ -1,4 +1,3 @@
-
 # MockMate – AI-Powered Interview Analyzer
 
 MockMate is a full-stack interview preparation platform that enables users to conduct live peer coding interviews and receive automated AI-based performance feedback.
@@ -12,14 +11,14 @@ MockMate is a full-stack interview preparation platform that enables users to co
 - Speech transcription
 - Audio performance analysis
 - Facial engagement detection
-- Interview performance scoring
+- Performance scoring
 - Automated insights and recommendations
 
 ## How It Works
 
 After an interview session, the recorded audio and video are processed by a Python ML service.
 
-Whisper performs speech transcription, Librosa extracts audio features, and OpenCV analyzes facial engagement. These metrics are combined to generate an overall performance score and feedback.
+Whisper performs speech transcription, Librosa extracts audio features, and OpenCV analyzes facial engagement. These metrics are combined to generate performance scores and recommendations.
 
 ## Tech Stack
 
@@ -33,17 +32,35 @@ Whisper performs speech transcription, Librosa extracts audio features, and Open
 - Node.js
 - Express
 - MongoDB
+- Clerk
+- Inngest
 
 ### ML
 - Python
 - Flask
 - Whisper
+- Librosa
 - OpenCV
 - PyTorch
 
 ### Communication
 - Stream Video SDK
 - Stream Chat SDK
+
+## Results
+
+The system successfully provides automated interview analysis through:
+
+- Speech transcription
+- Speaking pace analysis
+- Vocal energy analysis
+- Silence ratio
+- Pitch variation
+- Facial engagement detection
+- Weighted overall performance scoring
+- Personalized recommendations
+
+The project report does not specify a single numerical accuracy percentage; therefore, the results are reported using these performance metrics rather than an invented accuracy value. :contentReference[oaicite:1]{index=1}
 
 ## Future Scope
 
